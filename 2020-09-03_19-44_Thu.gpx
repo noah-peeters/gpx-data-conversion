@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd~ 3.7.4" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>2020-09-03_19-44_Thu</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="50.7310902" lon="5.2099341">
+        <ele>147.176</ele>
+        <time>2020-09-03T17:44:26Z</time>
+        <hdop>4.7</hdop>
+      </trkpt>
+      <trkpt lat="50.7309735" lon="5.209983">
+        <ele>143.061</ele>
+        <time>2020-09-03T17:44:50Z</time>
+        <hdop>4.7</hdop>
+        <extensions>
+          <speed>1.394</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="50.7308635" lon="5.2100378">
+        <ele>137.877</ele>
+        <time>2020-09-03T17:44:53Z</time>
+        <hdop>4.713</hdop>
+        <extensions>
+          <speed>1.195</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="50.7307718" lon="5.2100429">
+        <ele>130.174</ele>
+        <time>2020-09-03T17:44:56Z</time>
+        <hdop>3.378</hdop>
+      </trkpt>
+      <trkpt lat="50.7308476" lon="5.2099641">
+        <ele>122.712</ele>
+        <time>2020-09-03T17:45:39Z</time>
+        <hdop>6.35</hdop>
+        <extensions>
+          <speed>0.684</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="50.7308774" lon="5.2097936">
+        <ele>122.676</ele>
+        <time>2020-09-03T17:46:40Z</time>
+        <hdop>9.977</hdop>
+        <extensions>
+          <speed>0.467</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="50.7308018" lon="5.2098896">
+        <ele>118.214</ele>
+        <time>2020-09-03T17:48:00Z</time>
+        <hdop>5.442</hdop>
+        <extensions>
+          <speed>0.112</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="50.7308309" lon="5.2100316">
+        <ele>118.214</ele>
+        <time>2020-09-03T17:48:06Z</time>
+        <hdop>4.7</hdop>
+        <extensions>
+          <speed>0.968</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
