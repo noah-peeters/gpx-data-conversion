@@ -9,6 +9,7 @@ segment = track.segments[0]
 
 print("{} point(s)".format(len(segment.points)))
 
+
 data = []
 segment_length = segment.length_3d()
 for point_idx, point in enumerate(segment.points):
