@@ -4,10 +4,10 @@ from operator import index
 import gpxpy
 #* Get track
 def getTrack(name):
-    n = "C:\\Users\\noahe\\Documents\\gpx-data-conversion\\Fiets" + name
+    n = "C:\\Users\\noahe\\Documents\\gpx-data-conversion\\CrossFiets_Frank" + name
     gpx = gpxpy.parse(open(n))
     return gpx
-name = "\\School_rit_" + "3" + ".gpx"
+name = "\\Crossfiets" + "23 " + "30" + ".gpx"
 gpx = getTrack(name)
 
 #* Round number
@@ -26,6 +26,7 @@ print("Number of recorded points: " + str(len(segment.points)))
 print("SPEEDS OF POINTS")
 for index, point in enumerate(segment.points):
     #* Get speed per point (in Km/h)
+    #if segment.get_speed(index):
     currentSpeed = segment.get_speed(index) * 3.6
     speedsList.append(currentSpeed)
     print(round_half_up(currentSpeed, 2))
@@ -54,4 +55,6 @@ for i, v in enumerate(speedsList):
     speedSum += speedsList[i]
 averageSpeed = speedSum / len(speedsList)   #* Sum of items / Amount of items
 print("AverageSpeed:", averageSpeed, "Km/h")
+print("Elevation bounds:")
+print(segment.get_elevation_extremes())
 #print("MaxSpeed:", maxSpeed, "Km/h")
