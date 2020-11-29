@@ -4,7 +4,7 @@ from operator import index
 import gpxpy
 #* Get track
 def getTrack(name):
-    n = "C:\\Users\\Michaël Peeters\\Documents\\GitHub\\gpx-data-conversion\\Fiets" + name
+    n = "C:\\Users\\noahe\\Documents\\gpx-data-conversion\\Fiets" + name
     gpx = gpxpy.parse(open(n))
     return gpx
 name = "\\School_rit_" + "3" + ".gpx"
@@ -55,9 +55,3 @@ for i, v in enumerate(speedsList):
 averageSpeed = speedSum / len(speedsList)   #* Sum of items / Amount of items
 print("AverageSpeed:", averageSpeed, "Km/h")
 #print("MaxSpeed:", maxSpeed, "Km/h")
-
-#from pandas import DataFrame
-#columns = ['Longitude', 'Latitude', 'Altitude', 'Time', 'Speed']
-#df = DataFrame(data, columns=columns)
-#df.head()
-#print(df.to_string())
